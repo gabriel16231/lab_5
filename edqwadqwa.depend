@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1699704551 source:c:\users\gabriel ghita\desktop\schul\an2\poo\edqwadqwa\main.cpp
+	"electrocasnic.h"
+
+1699702628 c:\users\gabriel ghita\desktop\schul\an2\poo\edqwadqwa\produs.h
+	<iostream>
+	<cstring>
+
+1699702668 source:c:\users\gabriel ghita\desktop\schul\an2\poo\edqwadqwa\produs.cpp
+	"produs.h"
+
+1699704551 c:\users\gabriel ghita\desktop\schul\an2\poo\edqwadqwa\electrocasnic.h
+	"produs.h"
+
+1699704586 source:c:\users\gabriel ghita\desktop\schul\an2\poo\edqwadqwa\electrocasnic.cpp
+	"electrocasnic.h"
+
