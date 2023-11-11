@@ -1,8 +1,8 @@
-#include "electrocasnic.h"
+#include "tv.h"
 
 int main()
 {
-    Electrocasnic x;
+    TV x,y;
     cin>>x;
     cout<<x;
     return 0;

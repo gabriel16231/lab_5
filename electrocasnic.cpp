@@ -30,6 +30,8 @@ Electrocasnic::Electrocasnic(const Electrocasnic & electrocasnic):Produs(electro
 void Electrocasnic::operator=(const Electrocasnic & electrocasnic)
 {
     (Produs&)(*this) =electrocasnic;
+    delete []marca;
+    marca=NULL;
     set_marca(electrocasnic.marca);
     are_garantie=electrocasnic.are_garantie;
 }
@@ -51,6 +53,11 @@ ostream& operator<<(ostream& dev, const Electrocasnic & electrocasnic)
 {
     dev<<(Produs&)electrocasnic;
     dev<<electrocasnic.marca<<endl;
-    dev<<electrocasnic.are_garantie;
+    dev<<electrocasnic.are_garantie<<endl;
+}
+
+Electrocasnic::~Electrocasnic()
+{
+    delete []marca;
 }
 

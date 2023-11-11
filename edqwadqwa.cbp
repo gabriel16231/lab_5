@@ -32,7 +32,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="electrocasnic.cpp" />
+		<Unit filename="electrocasnic.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="produs.cpp" />
+		<Unit filename="produs.h" />
+		<Unit filename="tv.cpp" />
+		<Unit filename="tv.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

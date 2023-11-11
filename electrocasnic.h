@@ -8,6 +8,7 @@ public:
     Electrocasnic();
     Electrocasnic(char [],int ,char *,bool);
     Electrocasnic(const Electrocasnic &);
+    ~Electrocasnic();
 
     void operator=(const Electrocasnic &);
 

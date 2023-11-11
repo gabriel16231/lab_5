@@ -20,10 +20,12 @@ istream& operator>>(istream & dev, Produs & produs)
 {
     dev>>produs.cod;
     dev>>produs.pret;
+    return dev;
 }
 
 ostream& operator<<(ostream & dev,const Produs & produs)
 {
     dev<<produs.cod<<endl;
     dev<<produs.pret<<endl;
+    return dev;
 }
